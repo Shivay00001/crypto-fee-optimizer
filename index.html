@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Crypto Transaction Fee Optimizer. Real-time Bitcoin fees (sat/vB) and Ethereum gas prices (Gwei). Find the cheapest time to send crypto.">
+    <meta name="keywords" content="bitcoin fees, ethereum gas price, crypto fee calculator, cheapest time to send bitcoin, eth gas tracker">
+    <meta name="author" content="Crypto Fee Optimizer">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/crypto-fee-optimizer/">
+    <meta property="og:title" content="Crypto Fee Optimizer - Save on Transaction Fees">
+    <meta property="og:description" content="Check current Bitcoin fees and Ethereum gas prices instantly. Optimize your transactions and save money.">
+    <meta property="og:image" content="assets/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://yourusername.github.io/crypto-fee-optimizer/">
+    <meta property="twitter:title" content="Crypto Fee Optimizer - Save on Transaction Fees">
+    <meta property="twitter:description" content="Check current Bitcoin fees and Ethereum gas prices instantly. Optimize your transactions and save money.">
+    <meta property="twitter:image" content="assets/og-image.jpg">
+
+    <title>Crypto Fee Optimizer | Best Time to Send Bitcoin & Ethereum</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AdSense Auto Ads (Place your script here) -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ID" crossorigin="anonymous"></script> -->
+</head>
+<body>
+
+    <div class="background-glob"></div>
+
+    <div class="container">
+        <header>
+            <h1>Crypto Fee Optimizer</h1>
+            <p>Save money on every transaction. Real-time fee tracking.</p>
+        </header>
+
+        <!-- Top Ad Banner -->
+        <div class="ad-container" id="ad-header">
+            <span class="ad-label">Advertisement</span>
+            <!-- AdSense Code Here -->
+            <div class="ad-placeholder">Google AdSense Banner</div>
+        </div>
+
+        <main class="dashboard">
+            <!-- Bitcoin Card -->
+            <div class="card glass" id="btc-card">
+                <div class="card-header">
+                    <div class="coin-title">
+                        <span class="icon">₿</span>
+                        <h2>Bitcoin</h2>
+                    </div>
+                    <div class="status-badge" id="btc-status">Loading...</div>
+                </div>
+                
+                <div class="fee-grid">
+                    <div class="fee-item slow">
+                        <span class="label">Slow (>1h)</span>
+                        <span class="value" id="btc-slow">-</span>
+                        <span class="unit">sat/vB</span>
+                    </div>
+                    <div class="fee-item standard">
+                        <span class="label">Standard (30m)</span>
+                        <span class="value" id="btc-standard">-</span>
+                        <span class="unit">sat/vB</span>
+                    </div>
+                    <div class="fee-item fast">
+                        <span class="label">Fast (10m)</span>
+                        <span class="value" id="btc-fast">-</span>
+                        <span class="unit">sat/vB</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p id="btc-advice">Analyzing network...</p>
+                </div>
+            </div>
+
+            <!-- Ethereum Card -->
+            <div class="card glass" id="eth-card">
+                <div class="card-header">
+                    <div class="coin-title">
+                        <span class="icon">Ξ</span>
+                        <h2>Ethereum</h2>
+                    </div>
+                    <div class="status-badge" id="eth-status">Loading...</div>
+                </div>
+                
+                <div class="fee-grid">
+                    <div class="fee-item slow">
+                        <span class="label">Slow</span>
+                        <span class="value" id="eth-slow">-</span>
+                        <span class="unit">Gwei</span>
+                    </div>
+                    <div class="fee-item standard">
+                        <span class="label">Standard</span>
+                        <span class="value" id="eth-standard">-</span>
+                        <span class="unit">Gwei</span>
+                    </div>
+                    <div class="fee-item fast">
+                        <span class="label">Fast</span>
+                        <span class="value" id="eth-fast">-</span>
+                        <span class="unit">Gwei</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p id="eth-advice">Analyzing network...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Affiliate Section -->
+        <section class="affiliates">
+            <h3>Recommended Tools</h3>
+            <div class="affiliate-grid" id="affiliate-container">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <!-- Sidebar/Bottom Ad -->
+        <div class="ad-container" id="ad-footer">
+            <span class="ad-label">Advertisement</span>
+            <div class="ad-placeholder">Google AdSense Recommendation</div>
+        </div>
+
+        <footer>
+            <p class="disclaimer">
+                <strong>Disclaimer:</strong> This tool provides estimated fee data for informational purposes only. 
+                We do not provide financial advice. Cryptocurrency transactions are irreversible. 
+                Always verify fees in your wallet before signing.
+            </p>
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> Crypto Fee Optimizer. Open Source.</p>
+        </footer>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
