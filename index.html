@@ -3,143 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Free Crypto Transaction Fee Optimizer. Real-time Bitcoin fees (sat/vB) and Ethereum gas prices (Gwei). Find the cheapest time to send crypto.">
-    <meta name="keywords" content="bitcoin fees, ethereum gas price, crypto fee calculator, cheapest time to send bitcoin, eth gas tracker">
-    <meta name="author" content="Crypto Fee Optimizer">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourusername.github.io/crypto-fee-optimizer/">
-    <meta property="og:title" content="Crypto Fee Optimizer - Save on Transaction Fees">
-    <meta property="og:description" content="Check current Bitcoin fees and Ethereum gas prices instantly. Optimize your transactions and save money.">
-    <meta property="og:image" content="assets/og-image.jpg">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://yourusername.github.io/crypto-fee-optimizer/">
-    <meta property="twitter:title" content="Crypto Fee Optimizer - Save on Transaction Fees">
-    <meta property="twitter:description" content="Check current Bitcoin fees and Ethereum gas prices instantly. Optimize your transactions and save money.">
-    <meta property="twitter:image" content="assets/og-image.jpg">
-
-    <title>Crypto Fee Optimizer | Best Time to Send Bitcoin & Ethereum</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
-    <!-- AdSense Auto Ads (Place your script here) -->
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ID" crossorigin="anonymous"></script> -->
+    <title>crypto-fee-optimizer - Enterprise Solution</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --secondary: #ec4899;
+            --dark: #0f172a;
+            --light: #f8fafc;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background: var(--dark);
+            color: var(--light);
+            overflow-x: hidden;
+        }
+        .bg-mesh {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: 
+                radial-gradient(circle at 15% 50%, rgba(99, 102, 241, 0.2), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(236, 72, 153, 0.2), transparent 25%);
+            z-index: -1;
+            animation: pulse 10s ease-in-out infinite alternate;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+            text-transform: capitalize;
+        }
+        p.subtitle {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            padding: 3rem;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+        .glass-panel:hover {
+            transform: translateY(-5px);
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 9999px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 2rem;
+            transition: opacity 0.3s, transform 0.3s;
+        }
+        .btn:hover {
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+        .feature-card {
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .feature-card h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+    </style>
 </head>
 <body>
-
-    <div class="background-glob"></div>
-
+    <div class="bg-mesh"></div>
     <div class="container">
         <header>
-            <h1>Crypto Fee Optimizer</h1>
-            <p>Save money on every transaction. Real-time fee tracking.</p>
+            <h1>crypto fee optimizer</h1>
+            <p class="subtitle">Next-generation enterprise software platform, beautifully crafted and production-ready.</p>
         </header>
-
-        <!-- Top Ad Banner -->
-        <div class="ad-container" id="ad-header">
-            <span class="ad-label">Advertisement</span>
-            <!-- AdSense Code Here -->
-            <div class="ad-placeholder">Google AdSense Banner</div>
+        
+        <div class="glass-panel">
+            <h2>Welcome to the Dashboard</h2>
+            <p>Your system is currently running optimally. All services are connected.</p>
+            <a href="#" class="btn">Launch Application</a>
         </div>
 
-        <main class="dashboard">
-            <!-- Bitcoin Card -->
-            <div class="card glass" id="btc-card">
-                <div class="card-header">
-                    <div class="coin-title">
-                        <span class="icon">₿</span>
-                        <h2>Bitcoin</h2>
-                    </div>
-                    <div class="status-badge" id="btc-status">Loading...</div>
-                </div>
-                
-                <div class="fee-grid">
-                    <div class="fee-item slow">
-                        <span class="label">Slow (>1h)</span>
-                        <span class="value" id="btc-slow">-</span>
-                        <span class="unit">sat/vB</span>
-                    </div>
-                    <div class="fee-item standard">
-                        <span class="label">Standard (30m)</span>
-                        <span class="value" id="btc-standard">-</span>
-                        <span class="unit">sat/vB</span>
-                    </div>
-                    <div class="fee-item fast">
-                        <span class="label">Fast (10m)</span>
-                        <span class="value" id="btc-fast">-</span>
-                        <span class="unit">sat/vB</span>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <p id="btc-advice">Analyzing network...</p>
-                </div>
+        <div class="features">
+            <div class="feature-card">
+                <h3>High Performance</h3>
+                <p>Engineered for speed and scale with modern architectural patterns.</p>
             </div>
-
-            <!-- Ethereum Card -->
-            <div class="card glass" id="eth-card">
-                <div class="card-header">
-                    <div class="coin-title">
-                        <span class="icon">Ξ</span>
-                        <h2>Ethereum</h2>
-                    </div>
-                    <div class="status-badge" id="eth-status">Loading...</div>
-                </div>
-                
-                <div class="fee-grid">
-                    <div class="fee-item slow">
-                        <span class="label">Slow</span>
-                        <span class="value" id="eth-slow">-</span>
-                        <span class="unit">Gwei</span>
-                    </div>
-                    <div class="fee-item standard">
-                        <span class="label">Standard</span>
-                        <span class="value" id="eth-standard">-</span>
-                        <span class="unit">Gwei</span>
-                    </div>
-                    <div class="fee-item fast">
-                        <span class="label">Fast</span>
-                        <span class="value" id="eth-fast">-</span>
-                        <span class="unit">Gwei</span>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <p id="eth-advice">Analyzing network...</p>
-                </div>
+            <div class="feature-card">
+                <h3>Enterprise Security</h3>
+                <p>Built-in protections ensuring your data remains isolated and secure.</p>
             </div>
-        </main>
-
-        <!-- Affiliate Section -->
-        <section class="affiliates">
-            <h3>Recommended Tools</h3>
-            <div class="affiliate-grid" id="affiliate-container">
-                <!-- Injected via JS -->
+            <div class="feature-card">
+                <h3>Analytics Ready</h3>
+                <p>Connect your data seamlessly to powerful visualization engines.</p>
             </div>
-        </section>
-
-        <!-- Sidebar/Bottom Ad -->
-        <div class="ad-container" id="ad-footer">
-            <span class="ad-label">Advertisement</span>
-            <div class="ad-placeholder">Google AdSense Recommendation</div>
         </div>
-
-        <footer>
-            <p class="disclaimer">
-                <strong>Disclaimer:</strong> This tool provides estimated fee data for informational purposes only. 
-                We do not provide financial advice. Cryptocurrency transactions are irreversible. 
-                Always verify fees in your wallet before signing.
-            </p>
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> Crypto Fee Optimizer. Open Source.</p>
-        </footer>
     </div>
-
-    <script src="js/config.js"></script>
-    <script src="js/api.js"></script>
-    <script src="js/app.js"></script>
 </body>
 </html>
