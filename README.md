@@ -53,3 +53,11 @@ The tool includes a "Recommended Tools" section.
 
 **Open Source MIT License**.
 This tool provides estimates only. Always check your wallet before confirming transactions. We are not responsible for financial losses.
+
+
+## Prerequisites
+- Required environment and dependencies
+
+## Usage
+Instructions on how to run the project.
+
