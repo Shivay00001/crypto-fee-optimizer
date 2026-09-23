@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "scripts": {},
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
   "author": "Shivay00001",
   "license": "Custom"
 }
