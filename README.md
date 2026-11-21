@@ -1,5 +1,7 @@
 # Crypto Transaction Fee Optimizer 🚀
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 A real-time, privacy-focused web tool to track Bitcoin transaction fees and Ethereum gas prices. Built with pure HTML/CSS/JS for maximum speed and SEO performance.
 
 ## 🌟 Features
@@ -60,4 +62,3 @@ This tool provides estimates only. Always check your wallet before confirming tr
 
 ## Usage
 Instructions on how to run the project.
-
